@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="number" id="tuoi" value="Nhap vao so tuoi: "/>
+    <input type="submit" value="Kiem tra" onclick="eclick" />
+
+</body>
+
+<script>
+    function eclick() {
+        let a = document.getElementById("tuoi").value;
+        if (a >= 16) {
+            alert("Du tuoi vao lop 10");
+        } else {
+            alert("Khong du tuoi vao lop 10");
+        }
+    }
+
+</script>
+
+</html>
